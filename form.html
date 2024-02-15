@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body class="body">
+    <div class="main-container">
+        <h1 class="heading">Student Form</h1>
+        <form>
+            <label class="label" for="name">Name</label>
+            <input class="input" type="text" name="name" placeholder="Naman" id="name" required>
+            <br>
+            <label class="label" for="email">Email:</label>
+            <input class="input" type="email" name="email" placeholder="example@gmail.com" id="email" required>
+            <br>
+            <label class="label" for="phone">Phone:</label>
+            <input class="input" type="tel" name="phone" placeholder="9599XXXXXX" id="phone" required>
+            <br>
+            <label class="label" for="dob">Date of Birth:</label>
+            <input class="input" type="date" name="dob" id="dob" required>
+            <br>
+            <label class="label" for="Gender">Gender:</label>
+            <br>
+            <div class="gender">
+                <input class=" " type="radio" id="html" name="gender" value="Male">
+                <label class="label" for="html">Male</label><br>
+            </div>
+            <div class="gender">
+                <input class=" " type="radio" id="css" name="gender" value="Female">
+                <label class="label" for="css">Female</label><br>
+
+            </div>
+            <label class="label" for="state">State</label>
+            <select name="state" id="state" required>
+                <option value="Delhi">Delhi</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+            <br>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+        <!-- Student Table -->
+        <div>
+            <h1 class="heading">Student Table</h1>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Date of Birth</th>
+                    <th>State</th>
+                </tr>
+                <tr>
+                    <td>Naman Rajput</td>
+                    <td>rajputnaman823@gmail.com</td>
+                    <td>9876543210</td>
+                    <td>01-01-2000</td>
+                    <td>Delhi</td>
+                </tr>
+                <tr>
+                    <td>Naman Rajput</td>
+                    <td>rajputnaman823@gmail.com</td>
+                    <td>9876543210</td>
+                    <td>01-01-2000</td>
+                    <td>Delhi</td>
+                </tr>
+                <tr>
+                    <td>Naman Rajput</td>
+                    <td>rajputnaman823@gmail.com</td>
+                    <td>9876543210</td>
+                    <td>01-01-2000</td>
+                    <td>Delhi</td>
+                </tr>
+            </table>
+        </div>
+</body>
+
+</html>
