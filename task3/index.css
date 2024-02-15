@@ -9,12 +9,12 @@ body {
 }
 .core {
   color: #ff3938;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .design {
   color: #1b1b1b;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .orangeColor {
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #fff4de;
-  margin: 2rem 12rem 2rem 12rem;
+  margin: 2rem 8rem 2rem 6rem;
 }
 .menu {
   display: flex;
@@ -45,7 +45,7 @@ body {
 .nav-items a {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 /* Hero section css */
 .herosection {
@@ -93,4 +93,38 @@ body {
   cursor: pointer;
   transition: all 1s ease;
   border-radius: 1rem;
+}
+.offer {
+  display: flex;
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 6rem 2rem 6rem;
+  background-color: #171926;
+}
+.offer-section {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.offer-content {
+  width: 100%;
+  text-align: left;
+  color: white;
+}
+.offer-img {
+  width: 70%;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 1rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171926;
+  color: white;
+  padding: 2rem 6rem 2rem 6rem;
 }
