@@ -246,7 +246,7 @@ body {
   text-aign: left;
 }
 .input {
-  padding: 0.8rem 2.5rem;
+  padding: 0.8rem 2rem;
   width: 100%;
   border: none;
   background-color: white;
@@ -255,4 +255,5 @@ body {
   font-weight: 700;
   cursor: pointer;
   border-radius: 1rem;
+  outline: none;
 }
