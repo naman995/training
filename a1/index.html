@@ -8,110 +8,129 @@
 </head>
 
 <body class="body">
-    <h1 class="title">Personal Details</h1>
-    <form id="personal-details-form">
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required><br><br>
-
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" required><br><br>
-
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male" required>
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female" required>
-        <label for="female">Female</label><br><br>
-
-        <label for="address">Address:</label>
-        <textarea id="address" name="address" required></textarea><br><br>
-
-        <label for="country">Country:</label>
-        <select id="country" name="country" required>
-            <option value="">Select Country</option>
-            <option value="india">India</option>
-            <option value="usa">USA</option>
-            <option value="uk">UK</option>
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
+    <div class="main glass">
+        <h1 class="title font">Personal Details</h1>
+        <form class="personal-details-form" id="personal-details-form">
+            <div class="fName">
 
 
-            <!-- Add country options here -->
-        </select><br><br>
+                <label class="font" for="first-name  ">First Name:</label>
+                <input class="input" placeholder="John" type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="fName">
+                <label class="font" for="last-name  ">Last Name:</label>
+                <input class="input" placeholder="Doe" type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="">
+                <label class="font">Gender:</label>
+                <input style="margin-left: 7rem;" type="radio" id="male" name="gender" value="male" required>
+                <label class="font" for="male">Male</label>
+                <input class=" " type="radio" id="female" name="gender" value="female" required>
+                <label class="font" for="female">Female</label>
+            </div>
+            <div class="address fName">
 
-        <label for="state">State:</label>
-        <select id="state" name="state" required>
-            <option value="">Select State</option>
-            <option value="andhra-pradesh">Andhra Pradesh</option>
-            <option value="arunachal-pradesh">Arunachal Pradesh</option>
-            <option value="assam">Assam</option>
-            <option value="bihar">Bihar</option>
-            <option value="chhattisgarh">Chhattisgarh</option>
-            <option value="goa">Goa</option>
-            <option value="gujarat">Gujarat</option>
-            <option value="haryana">Haryana</option>
-            <option value="himachal-pradesh">Himachal Pradesh</option>
-            <option value="jammu-kashmir">Jammu and Kashmir</option>
-            <option value="jharkhand">Jharkhand</option>
-            <option value="karnataka">Karnataka</option>
-            <option value="kerala">Kerala</option>
-            <option value="madhya-pradesh">Madhya Pradesh</option>
-            <option value="maharashtra">Maharashtra</option>
-            <option value="manipur">Manipur</option>
-            <option value="meghalaya">Meghalaya</option>
-            <option value="mizoram">Mizoram</option>
-            <option value="nagaland">Nagaland</option>
-            <option value="odisha">Odisha</option>
-            <option value="punjab">Punjab</option>
-            <option value="rajasthan">Rajasthan</option>
-            <option value="sikkim">Sikkim</option>
-            <option value="tamil-nadu">Tamil Nadu</option>
-            <option value="telangana">Telangana</option>
-            <option value="tripura">Tripura</option>
-            <option value="uttar-pradesh">Uttar Pradesh</option>
-            <option value="uttarakhand">Uttarakhand</option>
-            <option value="west-bengal">West Bengal</option>
-        </select><br><br>
+                <label class="font" for="address">Address:</label>
+                <textarea class="input" style="width: 65%;" id="address" rows="2" name="address" required></textarea>
+            </div>
 
+            <div class="fName">
+                <label class="font" for="country">Country:</label>
+                <select class=" input" id="country" name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+            <div class="fName">
 
-        <!-- Add state options here -->
-        </select><br><br>
+                <label class="font" for="state">State:</label>
+                <select class="input" id="state" name="state" required>
+                    <option value="">Select State</option>
+                    <option value="andhra-pradesh">Andhra Pradesh</option>
+                    <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chhattisgarh">Chhattisgarh</option>
+                    <option value="goa">Goa</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="himachal-pradesh">Himachal Pradesh</option>
+                    <option value="jammu-kashmir">Jammu and Kashmir</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="madhya-pradesh">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="meghalaya">Meghalaya</option>
+                    <option value="mizoram">Mizoram</option>
+                    <option value="nagaland">Nagaland</option>
+                    <option value="odisha">Odisha</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="sikkim">Sikkim</option>
+                    <option value="tamil-nadu">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="tripura">Tripura</option>
+                    <option value="uttar-pradesh">Uttar Pradesh</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="west-bengal">West Bengal</option>
+                </select>
+            </div>
 
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required><br><br>
+            <div class="fName">
+                <label class="font" for="city">City:</label>
+                <input class="input" style="width:65%;" type="text" id="city" name="city" required>
+            </div>
+            <div class="fName">
+                <label class="font" for="pincode">Pincode:</label>
+                <input class="input" maxlength="6" type="number" id="pincode" name="pincode" pattern="[0-9]{6}"
+                    required>
+            </div>
+            <div class="fName">
 
-        <label for="pincode">Pincode:</label>
-        <input type="text" id="pincode" name="pincode" pattern="[0-9]{6}" required><br><br>
+                <label class="font" for="employment-status">Employment Status:</label>
+                <select class="input" id="employment-status" name="employment-status" required>
+                    <option value="">Select Employment Status</option>
+                    <option value="employed">Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                    <option value="self-employed">Self-Employed</option>
+                    <option value="freelancer">Freelancer</option>
+                    <option value="student">Student</option>
+                </select>
+            </div>
+            <div class="fName">
 
-        <label for="employment-status">Employment Status:</label>
-        <select id="employment-status" name="employment-status" required>
-            <option value="">Select Employment Status</option>
-            <option value="employed">Employed</option>
-            <option value="unemployed">Unemployed</option>
-            <option value="self-employed">Self-Employed</option>
-            <option value="freelancer">Freelancer</option>
-            <option value="student">Student</option>
+                <label class="font" for="marital-status">Marital Status:</label>
+                <select class="input" id="marital-status" name="marital-status" required>
+                    <option value="">Select Marital Status</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="divorced">Divorced</option>
+                    <option value="widowed">Widowed</option>
+                </select>
+            </div>
+            </select>
+            <div class="btn ">
+                <button class="submit-btn" type="submit" value="Submit" />Submit </button>
+            </div>
+        </form>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>The content is save</p>
+        </div>
+    </div>
 
-            <!-- Add employment status options here -->
-        </select><br><br>
-
-        <label for="marital-status">Marital Status:</label>
-        <select id="marital-status" name="marital-status" required>
-            <option value="">Select Marital Status</option>
-            <option value="single">Single</option>
-            <option value="married">Married</option>
-            <option value="divorced">Divorced</option>
-            <option value="widowed">Widowed</option>
-
-            <!-- Add marital status options here -->
-        </select><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <h2>Entered Details:</h2>
-    <table id="details-table">
+    <h2 style="font-size: 35px;" class="font">Entered Details:</h2>
+    <table class="table glass" id="details-table">
         <thead>
-            <tr>
+            <tr class="font">
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Gender</th>
@@ -125,13 +144,12 @@
                 <th>Actions</th>
             </tr>
         </thead>
-        <tbody>
-            <!-- Table rows will be dynamically added here -->
+        <tbody class="tbody font">
         </tbody>
     </table>
+    <button style=" margin-bottom: 10rem;" class="edit-btn" id="openModal">Save</button>
 
     <script>
-        // Function to add a new row to the table
         function addRow()
         {
             var table = document.getElementById("details-table");
@@ -179,56 +197,70 @@
             cell10.innerHTML = maritalStatus;
 
             var cell11 = row.insertCell();
-            cell11.innerHTML = '<button class="edit-btn" onclick="editRow(this)">Edit</button> <button class="delete-btn" onclick="deleteRow(this)">Delete</button>';
+            cell11.innerHTML = '<button class="edit-btn" id="openModal" onClick="editRow(this)">Edit</button> <button id="deleterow" class="delete-btn" onclick="deleteRow(this)">Delete</button>';
 
-            // Clear form fields after adding a row
             document.getElementById("personal-details-form").reset();
         }
 
-        // Function to edit a row
+
         function editRow(button)
         {
             var row = button.parentNode.parentNode;
             var cells = row.getElementsByTagName("td");
 
-            // Get the values from the row and populate the form fields
-            document.getElementById("first-name").value = cells[0].innerHTML;
-            document.getElementById("last-name").value = cells[1].innerHTML;
-            document.querySelector('input[name="gender"][value="' + cells[2].innerHTML + '"]').checked = true;
-            document.getElementById("address").value = cells[3].innerHTML;
-            document.getElementById("country").value = cells[4].innerHTML;
-            document.getElementById("state").value = cells[5].innerHTML;
-            document.getElementById("city").value = cells[6].innerHTML;
-            document.getElementById("pincode").value = cells[7].innerHTML;
-            document.getElementById("employment-status").value = cells[8].innerHTML;
-            document.getElementById("marital-status").value = cells[9].innerHTML;
+            var firstName = cells[0].innerHTML;
+            var lastName = cells[1].innerHTML;
+            var gender = cells[2].innerHTML;
+            var address = cells[3].innerHTML;
+            var country = cells[4].innerHTML;
+            var state = cells[5].innerHTML;
+            var city = cells[6].innerHTML;
+            var pincode = cells[7].innerHTML;
+            var employmentStatus = cells[8].innerHTML;
+            var maritalStatus = cells[9].innerHTML;
 
-            // Remove the row from the table
+            document.getElementById("first-name").value = firstName;
+            document.getElementById("last-name").value = lastName;
+            document.querySelector('input[name="gender"][value="' + gender + '"]').checked = true;
+            document.getElementById("address").value = address;
+            document.getElementById("country").value = country;
+            document.getElementById("state").value = state;
+            document.getElementById("city").value = city;
+            document.getElementById("pincode").value = pincode;
+            document.getElementById("employment-status").value = employmentStatus;
+            document.getElementById("marital-status").value = maritalStatus;
+
             row.parentNode.removeChild(row);
-
-            // Show a popup message for editing
-            alert("Row edited successfully!");
         }
 
-        // Function to delete a row
+
+
         function deleteRow(button)
         {
             var row = button.parentNode.parentNode;
-
-            // Remove the row from the table
             row.parentNode.removeChild(row);
-
-            // Show a popup message for deletion
-            alert("Row deleted successfully!");
+            deleterow();
         }
-
-        // Add event listener to the form submit event
         document.getElementById("personal-details-form").addEventListener("submit", function (event)
         {
-            event.preventDefault(); // Prevent form submission
-
-            addRow(); // Add a new row to the table
+            event.preventDefault();
+            addRow();
         });
+        
+        const openModalButton = document.getElementById('openModal');
+        const modal = document.querySelector('.modal');
+        const closeButton = document.querySelector('.close');
+
+        openModalButton.addEventListener('click', () =>
+        {
+            modal.style.display = 'block';
+        });
+
+        closeButton.addEventListener('click', () =>
+        {
+            modal.style.display = 'none';
+        });
+
     </script>
 </body>
 
