@@ -2,7 +2,7 @@ import { Component, HostListener } from '@angular/core';
 import { Demo2Component } from '../demo2/demo2.component';
 
 @Component({
-  selector: 'app-card',
+  selector: '.app-card',
   standalone: true,
   imports: [Demo2Component],
   templateUrl: './card.component.html',
