@@ -1,0 +1,8 @@
+<p>parent works!</p>
+
+<p>
+    <label for="parentInput">
+        Parent Component :</label>
+    <input type="text" id="parentInput" #Pcomp (keyup)="0">
+</p>
+<app-child [pdata]="Pcomp.value"></app-child>
