@@ -9,4 +9,9 @@ import { ChildComponent } from '../child/child.component';
   styleUrl: './parent.component.css',
 })
 export class ParentComponent {
+  value: any;
+
+  getData(val: any) {
+    this.value = val;
+  }
 }

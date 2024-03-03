@@ -1,2 +1,3 @@
 <p>child works!</p>
-Value of Parent Input component {{pdata}}
+<!-- Value of Parent Input component {{pdata}} -->
+Child Component: <input type="text" #Ccomponent (keyup)="sendData(Ccomponent.value)">

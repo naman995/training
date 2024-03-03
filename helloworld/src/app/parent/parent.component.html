@@ -1,8 +1,11 @@
 <p>parent works!</p>
-
+<p> Data form child : </p>
+<!-- 
 <p>
     <label for="parentInput">
         Parent Component :</label>
-    <input type="text" id="parentInput" #Pcomp (keyup)="0">
+    <input type="text" id="parentInput" #Pcomp (keyup)="0">F
 </p>
-<app-child [pdata]="Pcomp.value"></app-child>
+<app-child [pdata]="Pcomp.value"></app-child> -->
+value of Parent Input component {{ value}}
+<app-child (childEvent)="getData($event)"></app-child>
